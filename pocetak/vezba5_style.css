@@ -1,0 +1,123 @@
+body {
+  background-color: #0e1217;
+  font-weight: 700;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.kartica1 {
+  background-color: #1c1f26;
+  height: 362px;
+  width: 276px;
+  margin: 40px;
+  border: solid 0.5px rgb(73, 70, 70);
+  border-radius: 17px;
+}
+.kartica1:hover {
+  border: rgb(92, 89, 89) solid 0.5px;
+}
+.kartica1_link {
+  text-decoration: none;
+}
+h2 {
+  color: white;
+  font-size: 18px;
+  margin-top: 15px;
+  margin-left: 20px;
+  margin-right: 15px;
+}
+.mala_slika {
+  width: 24px;
+  height: 24px;
+  margin-top: 15px;
+  margin-left: 24px;
+}
+.p1 {
+  margin: 0px 0px 5px 25px;
+  color: #a8b3cf;
+  font-size: 13px;
+  font-weight: 500;
+}
+.strelica p {
+  margin: 19px 0px 0px 3px;
+  font-size: 13px;
+  display: inline-block;
+  /* margin: px; */
+  color: #a8b3cf;
+}
+.velika_slika {
+  margin: 0px 8px 0px 8px;
+  height: 170px;
+  width: 260px;
+  border: transparent;
+  border-radius: 13px;
+}
+.arrow {
+  margin: 10px 0px 0px 26px;
+  float: left;
+  color: #a8b3cf;
+  font-size: 18px;
+  padding: 7px;
+  /* background-color: #39e58c; */
+  color: a8b3cf;
+  opacity: 0.4;
+  border: transparent;
+  border-radius: 10px;
+}
+
+.strelica {
+  display: inline-block;
+}
+.strelica:hover .arrow {
+  border: transparent;
+  border-radius: 10px;
+  background-color: #39e58c;
+}
+.strelica:hover p {
+  color: #39e58c;
+}
+.poruka {
+  display: inline-block;
+}
+.message {
+  margin: 10px 0px 0px 43px;
+  float: left;
+  color: #a8b3cf;
+  font-size: 18px;
+  padding: 7px;
+  /* background-color: #39e58c; */
+  color: a8b3cf;
+  opacity: 0.3;
+}
+.poruka p {
+  font-size: 13px;
+  margin: 19px 0px 0px 3px;
+  display: inline-block;
+  color: #a8b3cf;
+}
+.poruka:hover .message {
+  color: #08ff7f;
+  border: transparent;
+  border-radius: 10px;
+  background-color: #39e58c;
+}
+.poruka:hover p {
+  color: #39e58c;
+}
+.book {
+  display: inline-block;
+  float: right;
+}
+.bookmark {
+  margin: 10px 26px 0px 0px;
+  float: left;
+  color: #a8b3cf;
+  font-size: 18px;
+  padding: 7px;
+  color: a8b3cf;
+  opacity: 0.3;
+  border: transparent;
+  border-radius: 10px;
+  float: right;
+}
+.book:hover .bookmark {
+  color: #ff8e3b;
+}

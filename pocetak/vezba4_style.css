@@ -1,0 +1,37 @@
+body {
+  margin: 0px;
+  /* display: flex; */
+}
+.img1 {
+  width: 50%;
+  min-width: 500px;
+  vertical-align: middle;
+}
+
+.div1 {
+  vertical-align: middle;
+  max-width: 705px;
+  min-width: 440px;
+  width: 40%;
+  padding: 30px;
+  display: inline-block;
+}
+h2 {
+  margin: 0px;
+  font-size: 35px;
+}
+.p2 {
+  font-size: 18px;
+  color: #7a7a7a;
+}
+
+.button1 {
+  height: 65px;
+  width: 190px;
+  padding: 16px 28px;
+  background-color: white;
+  border: 3px solid #e9bb66;
+  border-radius: 25px;
+  font-size: 17px;
+  color: #e9bb66;
+}
