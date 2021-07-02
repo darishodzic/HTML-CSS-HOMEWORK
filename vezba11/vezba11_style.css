@@ -1,0 +1,89 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+html {
+	font-size: 62.5%;
+}
+.main {
+	width: 90%;
+	margin: 0px auto;
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+	min-height: 60vh;
+}
+.prvi {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	min-height: 25vh;
+}
+.prvi h2 {
+	font-size: 3.2rem;
+	padding-bottom: 1rem;
+	text-align: center;
+}
+.prvi p {
+	font-size: 1.5rem;
+	text-align: center;
+	word-wrap: break-word;
+}
+.kartica {
+	height: 18rem;
+	width: 48rem;
+	border: 1px solid #cccccc;
+	padding: 2.5rem;
+	margin: 1.5rem;
+	border-radius: 8px;
+	flex: 1 1 30rem;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	align-items: flex-start;
+}
+img {
+	width: 4rem;
+	border: 1px solid black;
+	border-radius: 50%;
+}
+h3 {
+	font-size: 2rem;
+	padding-bottom: 1rem;
+}
+.text p {
+	font-size: 1.3rem;
+}
+.button-div {
+	min-height: 10vh;
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+button {
+	padding: 0.7rem 2rem;
+	background-color: rgb(42, 167, 42);
+	border: transparent;
+	border-radius: 3px;
+	color: white;
+}
+@media screen and (max-width: 450px) {
+	html {
+		font-size: 45%;
+	}
+	.prvi h2 {
+		font-size: 2.5rem;
+	}
+	.prvi p {
+		padding: 5px;
+		margin: 5px;
+		padding-top: 0px;
+		margin-top: 0px;
+	}
+	.kartica {
+		height: 20rem;
+	}
+}
