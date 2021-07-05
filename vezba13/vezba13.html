@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta
+			http-equiv="X-UA-Compatible"
+			content="IE=edge"
+		/>
+		<meta
+			name="viewport"
+			content="width=device-width, initial-scale=1.0"
+		/>
+		<link
+			rel="stylesheet"
+			href="vezba13_style.css"
+		/>
+		<title>Document</title>
+	</head>
+	<body>
+		<header>
+			<h4 class="logo">LOGO</h4>
+			<a
+				href="#"
+				id="menu"
+				class="menu"
+				onclick="myFunc()"
+				>Menu</a
+			>
+			<ul id="ull">
+				<li>Home</li>
+				<li>About</li>
+				<li>Contact</li>
+			</ul>
+		</header>
+		<script>
+			function myFunc() {
+				document
+					.getElementById("ull")
+					.classList.toggle("show");
+			}
+		</script>
+	</body>
+</html>
