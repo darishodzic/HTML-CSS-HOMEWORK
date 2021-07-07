@@ -1,0 +1,19 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    font-size: 62.5%;
+}
+button{
+    padding: 1rem 2rem;
+    
+}
+.tab2,.tab1,.tab3{
+    font-size: 35px;
+    text-align: center;
+}
+.tab2,.tab3{
+    display: none;
+}
