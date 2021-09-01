@@ -1,2 +1,2 @@
-import { a } from "./test.js";
-console.log(a);
+import { mojaF } from "./test.js";
+mojaF("adsjfdsfsfjsdjfhacabcsbajda");
