@@ -16,6 +16,7 @@ fetch(
 			);
 		});
 	})
+
 	.catch((error) => {
 		console.log(error);
 	});
